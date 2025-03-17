@@ -1,0 +1,86 @@
+header, body {
+    text-align: center;
+}
+
+body {
+    /* background image */
+    background-image: url('../img/numbersbackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    /* text */
+    font-size: 30px;
+ }
+
+ header, div { 
+    /* white background */
+    background-color: white;
+    border:5px;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    /*font*/
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+ }
+
+ header h1 {
+    color: rgb(226, 90, 90);
+ }
+
+ header h2 {
+    color: rgb(236, 151, 82);
+ }
+
+ div { 
+    /*spacing different for divs*/
+    padding: 5px;
+ }
+
+ #playerGuess, #guessBtn, #feedbackBox, #resetBtn {
+    /*font*/
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+ }
+
+ #playerGuess {
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 40px;
+ }
+
+ #guessBtn, #resetBtn {
+    height: 50px;
+    width: 100px;
+    color: rgb(68, 59, 51);
+    background-color: rgb(238, 201, 230);
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+ }
+
+ #feedbackBox {
+    background-color: rgb(255, 255, 255);
+ }
+
+ #wins {
+    color: green;
+ }
+
+ #losses {
+    color: red;
+ }
+
+
+

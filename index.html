@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Guess a Number </title>
+        <meta charset="utf-8">
+        <link href = "css/styles.css" rel = "stylesheet" type = "text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">        
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Guess the Number!</h1>
+            <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        </header>
+        <br>
+        <div>
+            Wins:
+            <span id = "wins">0</span>
+        </div>
+        <div>
+            Losses:
+            <span id = "losses">0</span>
+        </div>
+        <div id="main">
+          Enter a guess: 
+          <input type="text" id="playerGuess" size="40">         
+          <button id="guessBtn"> Guess </button> <br>
+          <button id="resetBtn"> Reset </button> 
+          <div id="feedbackBox"></div>
+          <div> Previous Guesses: 
+            <span id = "guessesBox"></span>
+          </div>
+          <div> Attempts Left:
+            <span id = "guessesLeft"> </span>
+          </div>
+        </div>
+
+        <script src = "js/script.js"></script>
+        
+    </body>
+</html>
